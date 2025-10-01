@@ -46,7 +46,7 @@ function TodoList() {
                   </div>
                   <button className="text-red-500 cursor-pointer hover:text-red-700" onClick={() => dispatch(deleteTodo(todo.id))}>Delete</button>
                 </li>
-              )):"No todos found"
+              )):<p className="text-gray-800">No todos found</p>
         }
 
         {/* <li className="flex items-center justify-between bg-white p-2 rounded shadow-sm">
